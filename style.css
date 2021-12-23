@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700");
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: hsl(240, 78%, 98%);
+  background-image: url(images/bg-top.svg);
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: 193px;
+  padding: 1rem;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  color: hsl(233, 13%, 49%);
+}
+li {
+  list-style-type: none;
+  border-top: 1px solid rgba(177, 177, 177, 0.699);
+  border-bottom: 1px solid rgba(177, 177, 177, 0.699);
+  padding: 1rem 0;
+}
+li:nth-child(2) {
+  border: none;
+}
+ul {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+  letter-spacing: 1.3px;
+}
+h1 {
+  color: hsl(232, 13%, 33%);
+  font-size: 3.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+h2 {
+  font-size: 2rem;
+}
+/* pricing type switch*/
+.pricing-type {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+.pricing-type-label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  color: hsl(234, 14%, 74%);
+}
+/* cards */
+.cards {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  margin-top: 4rem;
+}
+.card {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 2rem 1.8rem;
+  border-radius: 10px;
+  box-shadow: 2px 6px 15px 0px #c6beea;
+}
+span {
+  font-size: 2.5rem;
+  margin-right: 5px;
+}
+.btn {
+  background-image: linear-gradient(to right, hsl(236, 72%, 79%), hsl(237, 63%, 64%));
+  color: white;
+  padding: 1rem;
+  border-radius: 10px;
+  text-transform: uppercase;
+  margin-top: 1.5rem;
+}
+.purple {
+  background-image: linear-gradient(hsl(236, 72%, 79%), hsl(237, 63%, 64%));
+  color: white;
+}
+.purple h1 {
+  color: white;
+}
+.purple .btn {
+  background-image: none;
+  background-color: white;
+  color: hsl(237, 63%, 64%);
+}
+/* footer */
+footer {
+  margin-top: 6rem;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
