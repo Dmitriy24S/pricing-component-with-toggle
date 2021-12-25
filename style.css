@@ -160,6 +160,15 @@ span {
   background-color: white;
   color: hsl(237, 63%, 64%);
 }
+.monthly {
+  display: none;
+}
+.show-monthly .monthly {
+  display: flex;
+}
+.show-monthly .annually {
+  display: none;
+}
 /* footer */
 footer {
   margin-top: 6rem;
@@ -190,7 +199,6 @@ footer {
     background-image: url(images/bg-top.svg), url(images/bg-bottom.svg);
     background-position: top right, bottom left;
     background-repeat: no-repeat;
-    background-size: 300px;
     background-size: 400px;
   }
   .pricing-type {
